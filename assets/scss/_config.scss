@@ -1,0 +1,47 @@
+// Variables
+$left-color-1: #6311a8;
+$left-color-2: #4424bc;
+$left-color-3: #0d1039;
+$left-color-4: #16263b;
+$left-color-5: #124ca1;
+$left-color-6: #012a90;
+$left-color-7: #00834c;
+$light-white: rgba(255, 255, 255, 0.6);
+
+$right-color-1: #ccccce;
+$right-color-2: #1b035d;
+$right-color-3: #121541;
+$right-color-4: #0d131b;
+// $right-color-5: #124ca1;
+// $right-color-6: #012a90;
+// $right-color-7: #00834c;
+
+// Reset
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,
+body {
+	overflow: hidden;
+}
+body {
+	max-height: 100vh;
+	overflow-y: scroll;
+	scroll-snap-type: y mandatory;
+	font-family: "Poppins", sans-serif;
+	color: #fff;
+	display: flex;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+// body::-webkit-scrollbar {
+// 	display: none;
+// }
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}

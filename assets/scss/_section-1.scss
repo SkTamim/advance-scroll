@@ -1,0 +1,49 @@
+/* Section-1 Start */
+.section-1 {
+	background-color: $left-color-1;
+}
+.circle-1 {
+	background-color: $left-color-1;
+}
+.section-1 {
+	.headings-1 {
+		position: absolute;
+		top: 50%;
+		right: 25%;
+		transform: translateY(-50%);
+		width: max-content;
+		h1 {
+			font-size: 40px;
+		}
+		p {
+			text-align: end;
+			color: $light-white;
+		}
+	}
+	.content {
+		width: 300px;
+		position: absolute;
+		bottom: 20px;
+		left: 20px;
+		h2 {
+			font-size: 30px;
+		}
+		p {
+			color: $light-white;
+		}
+	}
+}
+.r-section-1 {
+	background-color: $right-color-1;
+	.r-images {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		overflow: hidden;
+		img {
+			height: 500px;
+		}
+	}
+}
+/* Section-1 End */

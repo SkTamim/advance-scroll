@@ -1,0 +1,366 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+body {
+  max-height: 100vh;
+  overflow-y: scroll;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+/* common styles */
+section {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  scroll-snap-align: start;
+  height: 100vh;
+}
+
+.circle {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  position: absolute;
+  top: 60px;
+  left: 70%;
+  z-index: 1;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  margin-top: 20px;
+  padding: 8px 10px;
+  padding-left: 0;
+  text-decoration: none;
+}
+
+i {
+  margin: 0 8px;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.create,
+.create-2,
+create-3 {
+  display: inline-block;
+  -webkit-transform: translateY(90%);
+          transform: translateY(90%);
+}
+
+h2,
+h1,
+p,
+a {
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.create-img {
+  display: inline-block;
+  -webkit-transform: translateY(110%);
+          transform: translateY(110%);
+}
+
+.left-area {
+  width: 40%;
+  max-height: 100vh;
+}
+
+.right-area {
+  width: 60%;
+  z-index: -1;
+}
+
+/* Section-1 Start */
+.section-1 {
+  background-color: #6311a8;
+}
+
+.circle-1 {
+  background-color: #6311a8;
+}
+
+.section-1 .headings-1 {
+  position: absolute;
+  top: 50%;
+  right: 25%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.section-1 .headings-1 h1 {
+  font-size: 40px;
+}
+
+.section-1 .headings-1 p {
+  text-align: end;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.section-1 .content {
+  width: 300px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.section-1 .content h2 {
+  font-size: 30px;
+}
+
+.section-1 .content p {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.r-section-1 {
+  background-color: #ccccce;
+}
+
+.r-section-1 .r-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  overflow: hidden;
+}
+
+.r-section-1 .r-images img {
+  height: 500px;
+}
+
+/* Section-1 End */
+/* Section-2 Start */
+.section-2 {
+  background-color: #4424bc;
+}
+
+.section-2 .headings-2 {
+  position: absolute;
+  top: 50%;
+  right: 25%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.section-2 .headings-2 h1 {
+  font-size: 40px;
+}
+
+.section-2 .headings-2 p:first-child {
+  text-align: start;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.section-2 .headings-2 p:last-child {
+  text-align: end;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.section-2 .content {
+  width: 300px;
+  position: absolute;
+  bottom: 40px;
+  left: 30px;
+}
+
+.section-2 .content h2 {
+  font-size: 30px;
+}
+
+.section-2 .content p {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.section-2 .content p:last-child {
+  margin-top: 40px;
+}
+
+.circle-2 {
+  background-color: #4424bc;
+}
+
+.r-section-2 {
+  background-color: #1b035d;
+}
+
+.r-section-2 .r-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  overflow: hidden;
+}
+
+.r-section-2 .r-images img {
+  height: 380px;
+  margin: 0 30px;
+  display: inline-block;
+  -webkit-transform: translateY(110%);
+          transform: translateY(110%);
+}
+
+.r-section-2 .r-images img:first-child {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.r-section-2 .r-images img:last-child {
+  -webkit-transform: translateY(-110%);
+          transform: translateY(-110%);
+}
+
+/* Section-2 End */
+/* Section-3 Start */
+.section-3 {
+  background-color: #0d1039;
+}
+
+.section-3 .headings-3 {
+  position: absolute;
+  top: 50%;
+  right: 25%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.section-3 .headings-3 h1 {
+  font-size: 80px;
+  line-height: 1;
+}
+
+.section-3 .headings-3 p:first-child {
+  text-align: start;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.section-3 .headings-3 p:last-child {
+  text-align: end;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.section-3 .content {
+  width: 300px;
+  position: absolute;
+  bottom: 40px;
+  left: 30px;
+}
+
+.section-3 .content h2 {
+  font-size: 30px;
+}
+
+.section-3 .content p {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.section-3 .content p:last-child {
+  margin-top: 40px;
+}
+
+.circle-3 {
+  background-color: #0d1039;
+}
+
+.r-section-3 {
+  background-color: #121541;
+}
+
+.r-section-3 .r-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  overflow: hidden;
+}
+
+.r-section-3 .r-images img {
+  height: 380px;
+  margin: 0 30px;
+  display: inline-block;
+  -webkit-transform: translateY(110%);
+          transform: translateY(110%);
+}
+
+.r-section-3 .r-images img:first-child {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.r-section-3 .r-images img:last-child {
+  -webkit-transform: translateY(-110%);
+          transform: translateY(-110%);
+  margin-top: -50px;
+}
+
+.create-3 {
+  display: inline-block;
+  -webkit-transform: translateY(90%);
+          transform: translateY(90%);
+}
+
+.create-img-3 {
+  display: inline-block;
+  -webkit-transform: translateY(110%);
+          transform: translateY(110%);
+}
+
+/* Section-3 End */
+/*# sourceMappingURL=main.css.map */

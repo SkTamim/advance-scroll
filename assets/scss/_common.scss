@@ -1,0 +1,61 @@
+/* common styles */
+section {
+	width: 100%;
+	position: relative;
+	z-index: 2;
+	scroll-snap-align: start;
+	height: 100vh;
+}
+.circle {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	position: absolute;
+	top: 60px;
+	left: 70%;
+	z-index: 1;
+}
+img {
+	max-width: 100%;
+}
+a {
+	display: flex;
+	align-items: center;
+	color: #fff;
+	margin-top: 20px;
+	padding: 8px 10px;
+	padding-left: 0;
+	text-decoration: none;
+}
+i {
+	margin: 0 8px;
+}
+a:hover {
+	color: $light-white;
+}
+
+.create,
+.create-2,
+create-3 {
+	display: inline-block;
+	transform: translateY(90%);
+}
+h2,
+h1,
+p,
+a {
+	overflow: hidden;
+	text-decoration: none;
+}
+.create-img {
+	display: inline-block;
+	transform: translateY(110%);
+}
+.left-area {
+	width: 40%;
+	max-height: 100vh;
+}
+.right-area {
+	width: 60%;
+	z-index: -1;
+}

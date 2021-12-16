@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance Scroll</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom Style file -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+
+</head>
+
+<body>
+
+    <main class="left-area">
+        <!-- Section-1 Start -->
+        <section class="section-1">
+            <div class="circle circle-1">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                    id="transring" x="0px" y="0px" viewBox="0 0 414 414">
+
+                    <path id="Transparent_Ring" class="transrg"
+                        style="opacity:0.4;fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;enable-background:new"
+                        d="M84.2,85c31.3-31.5,74.7-51,122.7-51c95.5,0,173,77.5,173,173s-77.5,173-173,173                 c-47.8,0-91-19.4-122.3-50.7" />
+
+                    <path id="Opaque_Ring" class="transrgwht" stroke-dasharray="0,1000"
+                        style="fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10; stroke-dasharray: 10, 1000;"
+                        d="M84.2,85c31.3-31.5,74.7-51,122.7-51c95.5,0,173,77.5,173,173s-77.5,173-173,173                 c-47.8,0-91-19.4-122.3-50.7" />
+
+                    <g id="Dots1" class="dots-nav">
+                        <g>
+                            <path class="dotsst dotsfill1" style="fill: rgb(0, 146, 255); opacity: 1;"
+                                d="M84,80 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 87, 80, 84,80 z" />
+                        </g>
+                        <g>
+                            <path class="dotsstro1"
+                                style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                                d="M84,80c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 87, 80, 84,80 z" />
+                        </g>
+                    </g>
+                    <g id="Dots2" class="dots-nav">
+                        <g>
+                            <path class="dotsst dotsfill2" style="fill: rgb(0, 146, 255); opacity: 1;"
+                                d="M206.8,29c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6S 210.1,29, 206.8,29 z M206.8" />
+                        </g>
+                        <g>
+                            <path class="dotsstro2"
+                                style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                                d="M206.8,29c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6S 210.1,29, 206.8,29 z M206.8" />
+                        </g>
+                    </g>
+                    <g id="Dots3" class="dots-nav">
+                        <g>
+                            <path class="dotsst dotsfill3" style="fill: rgb(0, 146, 255); opacity: 1;"
+                                d="M332,85 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 335,85, 332,85 z M332" />
+                        </g>
+                        <g>
+                            <path class="dotsstro3"
+                                style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                                d="M332,85 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 335,85, 332,85 z M332" />
+                        </g>
+                    </g>
+                    <g id="Dots4" class="dots-nav">
+                        <g>
+                            <path class="dotsst dotsfill4" style="fill: rgb(0, 146, 255); opacity: 1;"
+                                d="M380,205 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 383,205, 380,205 z M380" />
+                        </g>
+                        <g>
+                            <path class="dotsstro4"
+                                style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                                d="M380,205 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 383,205, 380,205 z M380" />
+                        </g>
+                    </g>
+                    <g id="Dots5" class="dots-nav">
+                        <g>
+                            <path class="dotsst dotsfill5" style="fill: rgb(0, 146, 255); opacity: 1;"
+                                d="M335,315 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 340,315, 335,315 z M335" />
+                        </g>
+                        <g>
+                            <path class="dotsstro5"
+                                style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                                d="M335,315 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 340,315, 335,315 z M335" />
+                        </g>
+                    </g>
+                    <g id="Dots6" class="dots-nav">
+                        <g>
+                            <path class="dotsst dotsfill6" style="fill: rgb(0, 146, 255); opacity: 1;"
+                                d="M210,375 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 215,375, 210,375 z M210" />
+                        </g>
+                        <g>
+                            <path class="dotsstro6"
+                                style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                                d="M210,375 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 215,375, 210,375 z M210" />
+                        </g>
+                    </g>
+                    <g id="Dots7" class="dots-nav">
+                        <g>
+                            <path class="dotsst dotsfill7" style="fill: rgb(0, 146, 255); opacity: 1;"
+                                d="M88,324 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 92,324, 88,324 z M88" />
+                        </g>
+                        <g>
+                            <path class="dotsstro7"
+                                style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                                d="M88,324 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 92,324, 88,324 z M88" />
+                        </g>
+                    </g>
+                </svg>
+                <div class="headings-1">
+                    <h1>
+                        <span class="create">25M+ Downloads</span>
+                    </h1>
+                    <p>
+                        <span class="create">on appstore & google playstore</span>
+                    </p>
+                </div>
+            </div>
+            <div class="content">
+                <img src="assets/images/world-communication-awards-for-best-digital-experience.png" alt="image">
+                <h2> <span class="create">ABC 123</span></h2>
+                <p><span class="create">We are the best web development company in the world</span></p>
+                <a href="#">
+                    <span class="create">View case study <i class="fas fa-long-arrow-alt-right"></i></span></a>
+            </div>
+        </section>
+        <!-- Section-1 End -->
+
+        <!-- Section-2 Start -->
+        <section class="section-2">
+            <div class="circle circle-2">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                    id="transring" x="0px" y="0px" viewBox="0 0 414 414">
+
+                    <path id="Transparent_Ring" class="transrg"
+                        style="opacity:0.4;fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;enable-background:new"
+                        d="M84.2,85c31.3-31.5,74.7-51,122.7-51c95.5,0,173,77.5,173,173s-77.5,173-173,173                 c-47.8,0-91-19.4-122.3-50.7" />
+
+                    <path id="Opaque_Ring" class="transrgwht" stroke-dasharray="0,1000"
+                        style="fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10; stroke-dasharray: 10, 1000;"
+                        d="M84.2,85c31.3-31.5,74.7-51,122.7-51c95.5,0,173,77.5,173,173s-77.5,173-173,173                 c-47.8,0-91-19.4-122.3-50.7" />
+
+                    <g id="Dots1" class="dots-nav">
+                        <g>
+                            <path class="dotsst dotsfill1" style="fill: rgb(0, 146, 255); opacity: 1;"
+                                d="M84,80 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 87, 80, 84,80 z" />
+                        </g>
+                        <g>
+                            <path class="dotsstro1"
+                                style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                                d="M84,80c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 87, 80, 84,80 z" />
+                        </g>
+                    </g>
+                    <g id="Dots2" class="dots-nav">
+                        <g>
+                            <path class="dotsst dotsfill2" style="fill: rgb(0, 146, 255); opacity: 1;"
+                                d="M206.8,29c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6S 210.1,29, 206.8,29 z M206.8" />
+                        </g>
+                        <g>
+                            <path class="dotsstro2"
+                                style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                                d="M206.8,29c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6S 210.1,29, 206.8,29 z M206.8" />
+                        </g>
+                    </g>
+                    <g id="Dots3" class="dots-nav">
+                        <g>
+                            <path class="dotsst dotsfill3" style="fill: rgb(0, 146, 255); opacity: 1;"
+                                d="M332,85 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 335,85, 332,85 z M332" />
+                        </g>
+                        <g>
+                            <path class="dotsstro3"
+                                style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                                d="M332,85 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 335,85, 332,85 z M332" />
+                        </g>
+                    </g>
+                    <g id="Dots4" class="dots-nav">
+                        <g>
+                            <path class="dotsst dotsfill4" style="fill: rgb(0, 146, 255); opacity: 1;"
+                                d="M380,205 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 383,205, 380,205 z M380" />
+                        </g>
+                        <g>
+                            <path class="dotsstro4"
+                                style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                                d="M380,205 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 383,205, 380,205 z M380" />
+                        </g>
+                    </g>
+                    <g id="Dots5" class="dots-nav">
+                        <g>
+                            <path class="dotsst dotsfill5" style="fill: rgb(0, 146, 255); opacity: 1;"
+                                d="M335,315 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 340,315, 335,315 z M335" />
+                        </g>
+                        <g>
+                            <path class="dotsstro5"
+                                style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                                d="M335,315 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 340,315, 335,315 z M335" />
+                        </g>
+                    </g>
+                    <g id="Dots6" class="dots-nav">
+                        <g>
+                            <path class="dotsst dotsfill6" style="fill: rgb(0, 146, 255); opacity: 1;"
+                                d="M210,375 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 215,375, 210,375 z M210" />
+                        </g>
+                        <g>
+                            <path class="dotsstro6"
+                                style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                                d="M210,375 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 215,375, 210,375 z M210" />
+                        </g>
+                    </g>
+                    <g id="Dots7" class="dots-nav">
+                        <g>
+                            <path class="dotsst dotsfill7" style="fill: rgb(0, 146, 255); opacity: 1;"
+                                d="M88,324 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 92,324, 88,324 z M88" />
+                        </g>
+                        <g>
+                            <path class="dotsstro7"
+                                style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                                d="M88,324 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 92,324, 88,324 z M88" />
+                        </g>
+                    </g>
+                </svg>
+                <div class="headings-2">
+                    <p>
+                        <span class="create-2">The next big</span>
+                    </p>
+                    <h1>
+                        <span class="create-2">Blockchain</span>
+                    </h1>
+                    <p>
+                        <span class="create-2">Revolution</span>
+                    </p>
+                </div>
+            </div>
+            <div class="content">
+                <h2> <span class="create-2">ABC 234</span></h2>
+                <p><span class="create-2">We are the best web development company in the world</span></p>
+                <p>
+                    <span class="create-2">Comming Soon</span>
+                </p>
+            </div>
+        </section>
+        <!-- Section-2 End -->
+
+        <!-- Section-3 Start -->
+        <section class="section-3">
+            <div class="circle circle-3">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                    id="transring" x="0px" y="0px" viewBox="0 0 414 414">
+
+                    <path id="Transparent_Ring" class="transrg"
+                        style="opacity:0.4;fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;enable-background:new"
+                        d="M84.2,85c31.3-31.5,74.7-51,122.7-51c95.5,0,173,77.5,173,173s-77.5,173-173,173                 c-47.8,0-91-19.4-122.3-50.7" />
+
+                    <path id="Opaque_Ring" class="transrgwht" stroke-dasharray="0,1000"
+                        style="fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10; stroke-dasharray: 10, 1000;"
+                        d="M84.2,85c31.3-31.5,74.7-51,122.7-51c95.5,0,173,77.5,173,173s-77.5,173-173,173                 c-47.8,0-91-19.4-122.3-50.7" />
+
+                    <g id="Dots1" class="dots-nav">
+                        <g>
+                            <path class="dotsst dotsfill1" style="fill: rgb(0, 146, 255); opacity: 1;"
+                                d="M84,80 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 87, 80, 84,80 z" />
+                        </g>
+                        <g>
+                            <path class="dotsstro1"
+                                style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                                d="M84,80c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 87, 80, 84,80 z" />
+                        </g>
+                    </g>
+                    <g id="Dots2" class="dots-nav">
+                        <g>
+                            <path class="dotsst dotsfill2" style="fill: rgb(0, 146, 255); opacity: 1;"
+                                d="M206.8,29c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6S 210.1,29, 206.8,29 z M206.8" />
+                        </g>
+                        <g>
+                            <path class="dotsstro2"
+                                style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                                d="M206.8,29c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6S 210.1,29, 206.8,29 z M206.8" />
+                        </g>
+                    </g>
+                    <g id="Dots3" class="dots-nav">
+                        <g>
+                            <path class="dotsst dotsfill3" style="fill: rgb(0, 146, 255); opacity: 1;"
+                                d="M332,85 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 335,85, 332,85 z M332" />
+                        </g>
+                        <g>
+                            <path class="dotsstro3"
+                                style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                                d="M332,85 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 335,85, 332,85 z M332" />
+                        </g>
+                    </g>
+                    <g id="Dots4" class="dots-nav">
+                        <g>
+                            <path class="dotsst dotsfill4" style="fill: rgb(0, 146, 255); opacity: 1;"
+                                d="M380,205 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 383,205, 380,205 z M380" />
+                        </g>
+                        <g>
+                            <path class="dotsstro4"
+                                style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                                d="M380,205 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 383,205, 380,205 z M380" />
+                        </g>
+                    </g>
+                    <g id="Dots5" class="dots-nav">
+                        <g>
+                            <path class="dotsst dotsfill5" style="fill: rgb(0, 146, 255); opacity: 1;"
+                                d="M335,315 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 340,315, 335,315 z M335" />
+                        </g>
+                        <g>
+                            <path class="dotsstro5"
+                                style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                                d="M335,315 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 340,315, 335,315 z M335" />
+                        </g>
+                    </g>
+                    <g id="Dots6" class="dots-nav">
+                        <g>
+                            <path class="dotsst dotsfill6" style="fill: rgb(0, 146, 255); opacity: 1;"
+                                d="M210,375 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 215,375, 210,375 z M210" />
+                        </g>
+                        <g>
+                            <path class="dotsstro6"
+                                style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                                d="M210,375 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 215,375, 210,375 z M210" />
+                        </g>
+                    </g>
+                    <g id="Dots7" class="dots-nav">
+                        <g>
+                            <path class="dotsst dotsfill7" style="fill: rgb(0, 146, 255); opacity: 1;"
+                                d="M88,324 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 92,324, 88,324 z M88" />
+                        </g>
+                        <g>
+                            <path class="dotsstro7"
+                                style="opacity: 1; fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;"
+                                d="M88,324 c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6 -6 S 92,324, 88,324 z M88" />
+                        </g>
+                    </g>
+                </svg>
+                <div class="headings-3">
+                    <p>
+                        <span class="create-3">Powered by Advance</span>
+                    </p>
+                    <h1>
+                        <span class="create-3">NASA</span>
+                    </h1>
+                    <p>
+                        <span class="create-3">Algorithms</span>
+                    </p>
+                </div>
+            </div>
+            <div class="content">
+                <h2> <span class="create-3">ABC 345</span></h2>
+                <p><span class="create-3">We are the best web development company in the world</span></p>
+                <p>
+                    <span class="create-3">Comming Soon</span>
+                </p>
+            </div>
+        </section>
+        <!-- Section-3 End -->
+    </main>
+
+    <main class="right-area">
+        <!-- Section-1 start -->
+        <section class="r-section-1">
+            <div class="r-images">
+                <img src="assets/images/nexgtv-entertainment-mobile-app-development.png" alt="image" class="create-img">
+                <img src="assets/images/nexgtv-mobile-app-ui-design.png" alt="image" class="create-img">
+            </div>
+        </section>
+        <!-- Section-1 end -->
+
+        <!-- Section-2 start -->
+        <section class="r-section-2">
+            <div class="r-images">
+                <img src="assets/images/veme-blockchain-app-developed.png" alt="image" class="create-img-2">
+                <img src="assets/images/veme-app-ui-design.png" alt="image" class="create-img-2">
+            </div>
+        </section>
+        <!-- Section-2 end -->
+
+        <!-- Section-3 start -->
+        <section class="r-section-3">
+            <div class="r-images">
+                <img src="assets/images/nasa-fitness-tracking-mobile-app.png" alt="image" class="create-img-3">
+                <img src="assets/images/measure-total-body-weight-through-fitness-app.png" alt="image"
+                    class="create-img-3">
+            </div>
+        </section>
+        <!-- Section-3 end -->
+    </main>
+
+
+    <!-- GASP JS files  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+
+    <!-- Custom JS file -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
